@@ -1,0 +1,145 @@
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  padding-top: 40px;
+  position: relative;
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+}
+
+.title  {
+  background-image: url("../imgs/city-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+  background-position: center center;
+  padding: 310px 0;
+  opacity: 0.9;
+  background-size: cover;
+}
+
+
+.name {
+  color: white;
+  font-size: 4em;
+}
+
+.aboutme-padding {
+  padding: 0 ;
+}
+
+.aboutme-content {
+  font-size: 1.3em;
+  padding: 150px 80px 0 0;
+}
+
+.ian-img  {
+  max-width: 350px;
+  padding-bottom: 60px;
+}
+
+
+.projects-title  {
+  width: 100%;
+  height: 400px;
+  padding: 200px 0;
+  background-image: url("../imgs/code.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+
+.project-description {
+  text-align: left;
+}
+
+.project-link {
+  color: black;
+}
+
+.project-link:hover {
+  font-weight: bold;
+}
+
+.section-container {
+  margin: 100px 0;
+}
+
+.experience-title  {
+  width: 100%;
+  height: 400px;
+  padding: 200px 0;
+  background-image: url("../imgs/books.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.dbc-img  {
+  max-width: 200px;
+}
+
+.resume-link {
+  text-decoration: none;
+  color: black;
+  border: solid 2px black;
+  padding: 3px 8px;
+  font-size: 1.2em;
+}
+
+.resume-link:hover {
+  color: white;
+  background-color: black;
+}
+
+.link-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.education-title  {
+  width: 100%;
+  height: 400px;
+  padding: 200px 0;
+  background-image: url("../imgs/education-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.contact-title  {
+  width: 100%;
+  height: 400px;
+  padding: 200px 0;
+  background-image: url("../imgs/contact-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.social-links a {
+  font-size: 1.5em;
+  color: black;
+  border: solid 2px black;
+  padding: 3px 8px;
+}
+
+.social-links a:hover {
+  color: white;
+  background-color: black;
+}

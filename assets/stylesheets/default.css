@@ -1,145 +1,83 @@
-a:hover {
-  text-decoration: none;
-}
-
 body {
-  padding-top: 40px;
-  position: relative;
-  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  font-style: normal;
+  font-weight: 400;
+  height: 100%;
+  background-color: #f9f9f9;
+  padding: 0;
+  margin: 0;
 }
-
-.title  {
-  background-image: url("../imgs/city-bg.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  text-align: center;
-  background-position: center center;
-  padding: 310px 0;
-  opacity: 0.9;
-  background-size: cover;
-}
-
 
 .name {
-  color: white;
-  font-size: 4em;
+  font-size: 7.35rem;
+  font-style: normal;
+  font-weight: 900;
+  padding: 0;
+  letter-spacing: -0.1rem;
+  color: #21211f;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
 }
 
-.aboutme-padding {
-  padding: 0 ;
+.name-block {
+  display: block;
+  margin-top: -50;
 }
 
-.aboutme-content {
-  font-size: 1.3em;
-  padding: 150px 80px 0 0;
+.main {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.ian-img  {
-  max-width: 350px;
-  padding-bottom: 60px;
+.sub-name {
+  color: #21211f;
+  font-size: 1.03rem;
+  line-height: 0;
+  letter-spacing: 0.135rem;
+  margin: -80 0 80 0;
+  padding: 0 0 0 360;
+  font-family: monospace;
 }
 
-
-.projects-title  {
+footer {
+  position: absolute;
+  bottom: 35px;
+  text-align: center;
+  display: block;
+  float: left;
   width: 100%;
-  height: 400px;
-  padding: 200px 0;
-  background-image: url("../imgs/code.png");
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-attachment: fixed;
-  background-size: cover;
-  text-align: center;
-  color: white;
 }
 
-
-.project-description {
-  text-align: left;
+a {
+  padding: 0 0.5rem;
+  color: #21211f;
+  font-size: 30px;
+  transition: all 0.5s ease;
 }
 
-.project-link {
-  color: black;
+.gh .li .ig .em {
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+.gh:hover {
+  color: #6e5494;
 }
 
-.project-link:hover {
-  font-weight: bold;
+.li:hover {
+  color: #0077B5;
 }
 
-.section-container {
-  margin: 100px 0;
+.ig:hover {
+  color: #bc2a8d;
 }
 
-.experience-title  {
-  width: 100%;
-  height: 400px;
-  padding: 200px 0;
-  background-image: url("../imgs/books.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  text-align: center;
-  color: white;
-}
-
-.dbc-img  {
-  max-width: 200px;
-}
-
-.resume-link {
-  text-decoration: none;
-  color: black;
-  border: solid 2px black;
-  padding: 3px 8px;
-  font-size: 1.2em;
-}
-
-.resume-link:hover {
-  color: white;
-  background-color: black;
-}
-
-.link-container {
-  text-align: center;
-  margin-top: 40px;
-}
-
-.education-title  {
-  width: 100%;
-  height: 400px;
-  padding: 200px 0;
-  background-image: url("../imgs/education-bg.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  text-align: center;
-  color: white;
-}
-
-.contact-title  {
-  width: 100%;
-  height: 400px;
-  padding: 200px 0;
-  background-image: url("../imgs/contact-bg.jpg");
-  background-repeat: no-repeat;
-  background-position: 0% 50%;
-  background-attachment: fixed;
-  background-size: cover;
-  text-align: center;
-  color: white;
-}
-
-.social-links a {
-  font-size: 1.5em;
-  color: black;
-  border: solid 2px black;
-  padding: 3px 8px;
-}
-
-.social-links a:hover {
-  color: white;
-  background-color: black;
+.em:hover {
+  color: #c13c32;
 }

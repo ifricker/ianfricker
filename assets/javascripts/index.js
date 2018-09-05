@@ -7,5 +7,5 @@ var showText = function(target, message, index, interval) {
   }
 }
 $(document).ready(function() {
-  showText('.sub-name', 'software engineer', 0, 100);
+  showText('.sub-name', 'oftware engineer', 0, 100);
 });

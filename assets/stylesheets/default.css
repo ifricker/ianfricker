@@ -87,11 +87,10 @@ a {
   [class*="name"] {
     font-size: 3rem;
     text-align: center;
-    margin-left: 20px;
   }
   [class*="sub-name"] {
     font-size: .75rem;
-    margin: -28px 0px 0px 75px;
+    margin: -28px 0px 0px 65px;
     padding: 0px;
   }
 }

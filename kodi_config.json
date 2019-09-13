@@ -1,1 +1,1 @@
-{"sites":[{"name":"nflbite","poster":"","fanart":"","items":{"Series":[{"site_url":"https://nflbite.com/","global":"","pattern":"<a href=\"{%}\"><img class=\"nfl-logo-image\" src=\"{%}\"/> </a>","name":"{%1}","url":"https://nflbite.com/{%1}","poster":"","fanart":""}]}}]}
+{"sites":[{"name":"nflbite","poster":"","fanart":"","items":{"Series":[{"site_url":"https://nflbite.com/","global":"","pattern":"<a href=\"{%}\"><img class=\"nfl-logo-image\" src=\"{%}\"/> </a>","name":"{%1}","url":"http://bfst.to/watch/nfl.php","poster":"","fanart":""}]}}]}

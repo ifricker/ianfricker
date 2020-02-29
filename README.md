@@ -1,21 +1,12 @@
 # ianfricker
-<body>
-  <script src="https://cdn.jsdelivr.net/npm/mermaid@8.4.0/dist/mermaid.min.js"></script>
-  <script>mermaid.initialize({startOnLoad:true});</script>
+```mermaid
+sequenceDiagram
+Alice ->> Bob: Hello Bob, how are you?
+Bob-->>John: How about you John?
+Bob--x Alice: I am good thanks!
+Bob-x John: I am good thanks!
+Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
 
-  Here is one mermaid diagram:
-  <div class="mermaid">
-    graph TD
-    A[Client] --> B[Load Balancer]
-    B --> C[Server1]
-    B --> D[Server2]
-  </div>
-
-  And here is another:
-  <div class="mermaid">
-    graph TD
-    A[Client] -->|tcp_123| B(Load Balancer)
-    B -->|tcp_456| C[Server1]
-    B -->|tcp_456| D[Server2]
-  </div>
-</body>
+Bob-->Alice: Checking with John...
+Alice->John: Yes... John, how are you?
+```

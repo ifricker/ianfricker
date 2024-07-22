@@ -59,7 +59,7 @@ a {
   transition: all 0.5s ease;
 }
 
-.gh .li .ig .em {
+.gh .li .ig .em .ph {
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
@@ -80,6 +80,10 @@ a {
 
 .em:hover {
   color: #c13c32;
+}
+
+.ph:hover {
+  color: #515b3a;
 }
 
 @media only screen and (max-width: 768px) {
